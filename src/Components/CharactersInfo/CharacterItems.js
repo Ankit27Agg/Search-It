@@ -1,7 +1,6 @@
 import React from 'react'
 
 const CharacterItems = ({item}) => {
-  console.log(item)
   return (
     <div className='card'>
       <div className='card-inner'>

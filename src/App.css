@@ -17,6 +17,7 @@ body {
   background-color: bisque;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -56,9 +57,15 @@ header img {
 
 .search {
   height: 100px;
+  /* display: flex;
+  flex-direction: row; */
+  background: #000;
+  padding-top: 1.8rem;
 }
 
 input[type='text'] {
+  justify-content: center;
+  align-items: center;
   display: block;
   padding: 10px;
   font-size: 20px;
@@ -69,10 +76,21 @@ input[type='text'] {
   outline: none;
 }
 
+/* .search button{
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  width: 30%;
+  margin: auto;
+  outline: none;
+} */
+
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 0fr);
-  gap: 2rem;
+  gap: 1rem;
   padding-left: 17vw;
   /* border-radius: 10rem; */
 }
